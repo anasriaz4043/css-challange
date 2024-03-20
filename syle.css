@@ -69,3 +69,9 @@ a:hover{
     height: 350px;
     width: 300px;
 }
+.img
+{
+    border-radius: 50%;
+    height: 350px;
+    width: 300px;
+}
