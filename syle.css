@@ -63,3 +63,9 @@ a:hover{
     margin: none;
     padding: none;
 }
+.img
+{
+    border-radius: 50%;
+    height: 350px;
+    width: 300px;
+}
