@@ -1,77 +1,105 @@
-.container{
+
+.container {
     width: 570px;
-    margin: auto;
     text-align: center;
-}
-
-*{
-    font-family: "Roboto Flex", sans-serif;
-    font-weight: 400;
-    color: grey;
-    padding: 0;
-    margin: 0;
-    
-}
-body{
+    margin: auto;
+  }
+  body {
+    font-family: "Roboto";
     font-size: 21px;
-}
-
-h1{
-    font-size: 80px;
-}
-h2{
+    margin: 0;
+  }
+  h1 {
     font-size: 60px;
-}
-h3{
+    font-weight: lighter;
+    font-size: 75px;
+  }
+  h2 {
+    font-size: 42px;
+    font-weight: lighter;
+    font-size: 60px;
+  }
+  h3 {
     font-size: 36px;
-}
-
-
-article p{
+  }
+  
+  .small {
     font-size: 16px;
-}
-article h3{
-    font-weight: 500;
-    color: black;
-}
-h1 span , h2  span{
+  }
+  span {
     display: block;
-    color: black;
-    font-weight: 600;
-}
-a{
-    color: #99D930;
-}
-a:hover{
+    font-weight: bold;
+    color: #99d930;
+    font-weight: 900;
+  }
+  a {
+    color: #99d930;
+  }
+  a:hover {
     color: #131313;
-}
-.p-100{
-    padding: 100px 0;
-}
-.header{
-    background-color: #D7D7D7;
-    margin: none;
-    padding: none;
-}
-.about{
-    background: #FFEAEA ;
-    margin: none;
-    padding: none;
-}
-.article{
-    background: #EAF9FF;
-    margin: none;
-    padding: none;
-}
-.img
-{
+  }
+  header {
+    background-color: #d7d7d7;
+    text-align: center;
+    margin: auto;
+    padding: 100px 0 100px 0;
+  }
+  section {
+    background-color:  #FFEAEA;
+    text-align: center;
+    margin: auto;
+    padding: 100px 0 100px 0;
+  }
+  article {
+    background-color: -#eaf9ff;
+    text-align: center;
+    margin: auto;
+    padding: 100px 0 100px 0;
+  }
+  img {
     border-radius: 50%;
-    height: 350px;
-    width: 300px;
-}
-.img
-{
-    border-radius: 50%;
-    height: 350px;
-    width: 300px;
-}
+  }
+  /* ==========2nd part=========== */
+  .bg-black {
+    background-color: #252525;
+    color: #fff;
+  }
+  h1,
+  h2 {
+    margin-top: 0;
+  
+  }
+  h3 {
+    margin-bottom: 0;
+  }
+  .small {
+    margin-top: 0;
+  }
+  .btn {
+    padding: 8px 12px;
+    background-color: #99d930;
+    color: #252525;
+    font-weight: 700;
+  }
+  .btn:hover {
+    color: #fff;
+    background-color: #252525;
+    cursor: pointer;
+    transition: all 0.71s ease;
+  }
+  h2 {
+    border-top: 1px solid #c4c4c4;
+    border-bottom: 1px solid #c4c4c4;
+    display: inline-block;
+  }
+  h1{
+      font-size: 80px;
+  }
+  h2{
+      font-size: 60px;
+  }
+  
+  article> .btn:hover{
+      background: #fff;
+      color: #252525;
+  }
